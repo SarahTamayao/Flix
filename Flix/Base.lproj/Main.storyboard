@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="-935" y="638"/>
         </scene>
-        <!--Movie Details View Controller-->
+        <!--Movie Detail-->
         <scene sceneID="1iM-bM-jZ6">
             <objects>
                 <viewController id="QVR-3n-Ljs" customClass="MovieDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -134,7 +134,7 @@
                         <viewLayoutGuide key="safeArea" id="2Me-7w-pl5"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PnS-yO-Zn8"/>
+                    <navigationItem key="navigationItem" title="Movie Detail" id="PnS-yO-Zn8"/>
                     <connections>
                         <outlet property="backdropView" destination="kEe-tO-Vnf" id="hLj-yM-H98"/>
                         <outlet property="posterView" destination="thy-Kh-NG2" id="jMJ-1f-iBH"/>
@@ -146,7 +146,7 @@
             </objects>
             <point key="canvasLocation" x="-936.23188405797111" y="1399.5535714285713"/>
         </scene>
-        <!--Movie Grid Details View Controller-->
+        <!--Movie Detail-->
         <scene sceneID="Tra-uG-or9">
             <objects>
                 <viewController id="jW2-bI-tAg" customClass="MovieGridDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -180,7 +180,7 @@
                         <viewLayoutGuide key="safeArea" id="SCG-df-42q"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2HH-tW-lqa"/>
+                    <navigationItem key="navigationItem" title="Movie Detail" id="2HH-tW-lqa"/>
                     <connections>
                         <outlet property="backdropView" destination="hv1-GN-5AH" id="QpM-mc-KsP"/>
                         <outlet property="posterView" destination="31q-U6-nzn" id="0D0-3k-1zZ"/>
