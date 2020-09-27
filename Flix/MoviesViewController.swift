@@ -37,11 +37,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             self.movies = dataDictionary["results"] as! [[String: Any]]
             
             self.tableView.reloadData()
-            
-              // TODO: Get the array of movies
-              // TODO: Store the movies in a property to use elsewhere
-              // TODO: Reload your table view data
-
            }
         }
         task.resume()
@@ -82,7 +77,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let indexPath = tableView.indexPath(for: cell)!
         let movie = movies[indexPath.row]
         
-        // Pass the selected move to the details view controller
+        // Pass the selected movie to the details view controller
         let detailsViewController = segue.destination as! MovieDetailsViewController
         detailsViewController.movie = movie
         

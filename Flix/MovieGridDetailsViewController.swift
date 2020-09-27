@@ -1,26 +1,24 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieGridDetailsViewController.swift
 //  Flix
 //
-//  Created by Estifanos Alene on 9/26/20.
+//  Created by Estifanos Alene on 9/27/20.
 //
 
 import UIKit
-import AlamofireImage
+ 
+class MovieGridDetailsViewController: UIViewController {
 
-class MovieDetailsViewController: UIViewController {
-    
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     
-    var movie: [String: Any]!
+    var movie: [String:Any]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
         
